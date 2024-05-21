@@ -1,0 +1,121 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");/*
+
+* {
+    box-sizing: border-box;
+}
+/*
+body {
+    background: linear-gradient(300deg, #ced1d6, #bfc0c0);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+input {
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 1rem;
+    min-width: 300px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.weather {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.weather h2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+} */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(100deg,#99aa59, #64bc80);
+    font-family: "Poppins", sans-serif;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0; */
+    min-height: 100vh;
+}
+nav{
+    background-color:  black;
+}
+.container-fluid{
+   
+    background-color:  #778b31;
+    color: aliceblue;
+}
+a.navbar-brand {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bolder;
+}
+#submit{
+    color: rgb(0, 0, 0);
+    background-color: #d9d60d;
+    
+}
+#submit:hover{
+    background-color: #626262;
+}
+.nav-item>a{
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#guide{
+    font-weight: 300;
+    color: black;
+}
+#head{
+    font-weight: bolder;
+    font-style: italic;
+}
+#temphead{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-style:normal;
+}
+.card{
+    background-color: #b32727;
+}
+.card-header.py-3 {
+    background-color: rgb(183, 145, 41);
+}
+.text-bg-primary{
+    background-color: rgb(183, 145, 41);
+}
+.card-body {
+    background-color: lightyellow;
+    font-weight: 550;
+    font-family: ui-sans-serif;
+}
+#sign{
+    background-color: rgb(177, 211, 125);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+h2.display-6.text-center.mb-4 {
+    font-weight: 350;
+    font-family: ui-sans-serif;
+    font-style: italic;
+}
+.text-start{
+    background-color: cornsilk;
+}
